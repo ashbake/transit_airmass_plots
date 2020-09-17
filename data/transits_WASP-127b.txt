@@ -1,0 +1,26 @@
+# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
+# Tue Apr  7 17:27:04 2020
+#
+# COLUMN planetname:     Data Source Planet Name
+# COLUMN ra_str:         RA [sexagesimal]
+# COLUMN ra:             RA [decimal degrees]
+# COLUMN dec_str:        Dec [sexagesimal]
+# COLUMN dec:            Dec [decimal degrees]
+# COLUMN obsname:        Observatory Name
+# COLUMN period:         Period [days]
+# COLUMN transitduration: Transit Duration [hours]
+# COLUMN transitdepthdb: Transit Depth - Measured [percent]
+# COLUMN transitdepthcalc: Transit Depth - Calculated [percent]
+# COLUMN midpointcalendar: Event Midpoint Calendar UT
+# COLUMN propmidpointunc: Propagated Midpoint Uncertainty [days]
+# COLUMN midpointairmass: Event Midpoint Airmass
+# COLUMN targetobsstartcalendar: Target Observability Start Calendar UT
+# COLUMN targetobsendcalendar: Target Observability End Calendar UT
+# COLUMN fractionobservable: Event Fraction Observable
+#
+#planetname,ra_str,ra,dec_str,dec,obsname,period,transitduration,transitdepthdb,transitdepthcalc,midpointcalendar,propmidpointunc,midpointairmass,targetobsstartcalendar,targetobsendcalendar,fractionobservable
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Kitt Peak,4.178062,4.308000,1.037000,1.025847,11/25/2020 12:08,0.001084,1.366410,11/25/2020 09:31,11/25/2020 13:07,0.729
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Kitt Peak,4.178062,4.308000,1.037000,1.025847,12/16/2020 09:30,0.001094,1.740500,12/16/2020 08:09,12/16/2020 13:22,0.814
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Kitt Peak,4.178062,4.308000,1.037000,1.025847,01/06/2021 06:52,0.001104,2.837500,01/06/2021 06:46,01/06/2021 13:29,0.523
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Kitt Peak,4.178062,4.308000,1.037000,1.025847,01/10/2021 11:09,0.001106,1.237430,01/10/2021 06:31,01/10/2021 13:30,1.000
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Kitt Peak,4.178062,4.308000,1.037000,1.025847,01/31/2021 08:31,0.001116,1.268900,01/31/2021 05:08,01/31/2021 13:24,1.000
