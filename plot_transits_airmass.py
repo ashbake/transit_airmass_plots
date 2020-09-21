@@ -76,7 +76,10 @@ def plot_all(startimes, endtimes, midtimes, duration, target, obs):
 			start_time = -1*half_duration + mid_time.datetime
 			end_time   = half_duration + mid_time.datetime
 
-			ax = plot_airmass(target, obs, start_time+datetime.timedelta(hours=0), ax=axs[i,j],brightness_shading=False, altitude_yaxis=False)
+			# add airmass plot - sample airmass time window from UT 0 so x axis reads correct data - created start of grid by dumb hack of taking start_time and subtracting start_time.hour
+			dt_array = np.arange(0,30,0.1)
+			time_array = [start_time - datetime.timedelta(hours=start_time.hour) + datetime.timedelta(hours=q) for q in dt_array]
+			ax = plot_airmass(target, obs, time_array, ax=axs[i,j],brightness_shading=False, altitude_yaxis=False)
 			
 			# get moon info
 			moon_ill = round(moon.moon_illumination(mid_time),2)
@@ -84,7 +87,6 @@ def plot_all(startimes, endtimes, midtimes, duration, target, obs):
 			moon_sep = np.abs(moon_coord.ra  - target.ra)
 
 			axs[i,j].axvspan(start_time, end_time,ymin=0, ymax=10, color='plum',alpha=0.8)
-
 
 			# narrower x-axis
 			xlo = datetime.datetime(day=start_time.day, year=start_time.year, month= start_time.month)
@@ -108,7 +110,7 @@ def plot_all(startimes, endtimes, midtimes, duration, target, obs):
 
 
 if __name__=='__main__':
-	planets = ['WASP-127b']#, 'WASP-76b']
+	planets = ['WASP-76b', 'WASP-127b']
 
 	for planet in planets:
 		filename = datapath + 'transits_%s.txt' %planet
@@ -120,6 +122,7 @@ if __name__=='__main__':
 		plt.savefig('./plots/observing_chart_%s.eps'%planet)
 		plt.savefig('./plots/observing_charts_%s.pdf'%planet)
 
-###################### Generate data for 
+###################### 
 
+# goal: run from command line: plot_transits airmass -site Keck -target WASP-76b -color coral -return_coord -ext pdf
 
