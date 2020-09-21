@@ -1,5 +1,7 @@
 # This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
-# Tue Apr  7 17:27:04 2020
+# Thu Sep 17 12:05:00 2020
+#
+# CONSTRAINT:  where (ismostprecise = 1)
 #
 # COLUMN planetname:     Data Source Planet Name
 # COLUMN ra_str:         RA [sexagesimal]
@@ -7,10 +9,16 @@
 # COLUMN dec_str:        Dec [sexagesimal]
 # COLUMN dec:            Dec [decimal degrees]
 # COLUMN obsname:        Observatory Name
+# COLUMN reflink:        Reference
+# COLUMN algorithm:      Algorithm
+# COLUMN isdefault:      Default Parameters Flag
+# COLUMN ismostprecise:  Most-Precise Flag
+# COLUMN phase:          Phase
 # COLUMN period:         Period [days]
 # COLUMN transitduration: Transit Duration [hours]
 # COLUMN transitdepthdb: Transit Depth - Measured [percent]
 # COLUMN transitdepthcalc: Transit Depth - Calculated [percent]
+# COLUMN ttv:            TTV flag
 # COLUMN midpointcalendar: Event Midpoint Calendar UT
 # COLUMN propmidpointunc: Propagated Midpoint Uncertainty [days]
 # COLUMN midpointairmass: Event Midpoint Airmass
@@ -18,9 +26,16 @@
 # COLUMN targetobsendcalendar: Target Observability End Calendar UT
 # COLUMN fractionobservable: Event Fraction Observable
 #
-#planetname,ra_str,ra,dec_str,dec,obsname,period,transitduration,transitdepthdb,transitdepthcalc,midpointcalendar,propmidpointunc,midpointairmass,targetobsstartcalendar,targetobsendcalendar,fractionobservable
-WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Kitt Peak,4.178062,4.308000,1.037000,1.025847,11/25/2020 12:08,0.001084,1.366410,11/25/2020 09:31,11/25/2020 13:07,0.729
-WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Kitt Peak,4.178062,4.308000,1.037000,1.025847,12/16/2020 09:30,0.001094,1.740500,12/16/2020 08:09,12/16/2020 13:22,0.814
-WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Kitt Peak,4.178062,4.308000,1.037000,1.025847,01/06/2021 06:52,0.001104,2.837500,01/06/2021 06:46,01/06/2021 13:29,0.523
-WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Kitt Peak,4.178062,4.308000,1.037000,1.025847,01/10/2021 11:09,0.001106,1.237430,01/10/2021 06:31,01/10/2021 13:30,1.000
-WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Kitt Peak,4.178062,4.308000,1.037000,1.025847,01/31/2021 08:31,0.001116,1.268900,01/31/2021 05:08,01/31/2021 13:24,1.000
+planetname,ra_str,ra,dec_str,dec,obsname,reflink,algorithm,isdefault,ismostprecise,phase,period,transitduration,transitdepthdb,transitdepthcalc,ttv,midpointcalendar,propmidpointunc,midpointairmass,targetobsstartcalendar,targetobsendcalendar,fractionobservable
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Mauna Kea,<a refstr=LAM_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017A&A...599A...3L/abstract target=ref>Lam et al. 2017</a>,Transit Ephemeris,1,1,0.000000,4.178062,4.308000,1.037000,1.025847,0,11/04/2020 14:46,0.001074,1.722180,11/04/2020 13:35,11/04/2020 15:35,0.465
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Mauna Kea,<a refstr=LAM_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017A&A...599A...3L/abstract target=ref>Lam et al. 2017</a>,Transit Ephemeris,1,1,0.000000,4.178062,4.308000,1.037000,1.025847,0,12/20/2020 13:47,0.001096,1.160440,12/20/2020 10:34,12/20/2020 15:59,1.000
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Mauna Kea,<a refstr=LAM_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017A&A...599A...3L/abstract target=ref>Lam et al. 2017</a>,Transit Ephemeris,1,1,0.000000,4.178062,4.308000,1.037000,1.025847,0,01/10/2021 11:09,0.001106,1.404400,01/10/2021 09:12,01/10/2021 16:07,0.953
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Mauna Kea,<a refstr=LAM_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017A&A...599A...3L/abstract target=ref>Lam et al. 2017</a>,Transit Ephemeris,1,1,0.000000,4.178062,4.308000,1.037000,1.025847,0,01/14/2021 15:25,0.001108,1.260000,01/14/2021 08:56,01/14/2021 16:08,0.667
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Mauna Kea,<a refstr=LAM_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017A&A...599A...3L/abstract target=ref>Lam et al. 2017</a>,Transit Ephemeris,1,1,0.000000,4.178062,4.308000,1.037000,1.025847,0,01/31/2021 08:31,0.001116,2.067470,01/31/2021 07:49,01/31/2021 16:06,0.661
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Mauna Kea,<a refstr=LAM_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017A&A...599A...3L/abstract target=ref>Lam et al. 2017</a>,Transit Ephemeris,1,1,0.000000,4.178062,4.308000,1.037000,1.025847,0,02/04/2021 12:47,0.001118,1.111190,02/04/2021 07:33,02/04/2021 16:06,1.000
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Mauna Kea,<a refstr=LAM_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017A&A...599A...3L/abstract target=ref>Lam et al. 2017</a>,Transit Ephemeris,1,1,0.000000,4.178062,4.308000,1.037000,1.025847,0,02/25/2021 10:09,0.001128,1.102570,02/25/2021 06:11,02/25/2021 15:12,1.000
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Mauna Kea,<a refstr=LAM_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017A&A...599A...3L/abstract target=ref>Lam et al. 2017</a>,Transit Ephemeris,1,1,0.000000,4.178062,4.308000,1.037000,1.025847,0,03/01/2021 14:25,0.001130,2.236220,03/01/2021 05:55,03/01/2021 14:57,0.620
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Mauna Kea,<a refstr=LAM_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017A&A...599A...3L/abstract target=ref>Lam et al. 2017</a>,Transit Ephemeris,1,1,0.000000,4.178062,4.308000,1.037000,1.025847,0,03/18/2021 07:31,0.001138,1.228520,03/18/2021 05:20,03/18/2021 13:50,1.000
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Mauna Kea,<a refstr=LAM_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017A&A...599A...3L/abstract target=ref>Lam et al. 2017</a>,Transit Ephemeris,1,1,0.000000,4.178062,4.308000,1.037000,1.025847,0,03/22/2021 11:48,0.001140,1.460690,03/22/2021 05:22,03/22/2021 13:34,0.912
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Mauna Kea,<a refstr=LAM_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017A&A...599A...3L/abstract target=ref>Lam et al. 2017</a>,Transit Ephemeris,1,1,0.000000,4.178062,4.308000,1.037000,1.025847,0,04/12/2021 09:10,0.001150,1.181460,04/12/2021 05:28,04/12/2021 12:11,1.000
+WASP-127 b,10h42m14.08s,160.558670,-03d50m06.23s,-3.835064,Mauna Kea,<a refstr=LAM_ET_AL__2017 href=https://ui.adsabs.harvard.edu/abs/2017A&A...599A...3L/abstract target=ref>Lam et al. 2017</a>,Transit Ephemeris,1,1,0.000000,4.178062,4.308000,1.037000,1.025847,0,05/03/2021 06:32,0.001160,1.093170,05/03/2021 05:36,05/03/2021 10:49,0.716

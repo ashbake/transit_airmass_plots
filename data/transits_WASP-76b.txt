@@ -1,5 +1,7 @@
 # This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
-# Tue Apr  7 15:28:43 2020
+# Thu Sep 17 13:24:25 2020
+#
+# CONSTRAINT:  where (ismostprecise = 1)
 #
 # COLUMN planetname:     Data Source Planet Name
 # COLUMN ra_str:         RA [sexagesimal]
@@ -7,9 +9,16 @@
 # COLUMN dec_str:        Dec [sexagesimal]
 # COLUMN dec:            Dec [decimal degrees]
 # COLUMN obsname:        Observatory Name
+# COLUMN reflink:        Reference
+# COLUMN algorithm:      Algorithm
+# COLUMN isdefault:      Default Parameters Flag
+# COLUMN ismostprecise:  Most-Precise Flag
+# COLUMN phase:          Phase
 # COLUMN period:         Period [days]
 # COLUMN transitduration: Transit Duration [hours]
 # COLUMN transitdepthdb: Transit Depth - Measured [percent]
+# COLUMN transitdepthcalc: Transit Depth - Calculated [percent]
+# COLUMN ttv:            TTV flag
 # COLUMN midpointcalendar: Event Midpoint Calendar UT
 # COLUMN propmidpointunc: Propagated Midpoint Uncertainty [days]
 # COLUMN midpointairmass: Event Midpoint Airmass
@@ -17,30 +26,39 @@
 # COLUMN targetobsendcalendar: Target Observability End Calendar UT
 # COLUMN fractionobservable: Event Fraction Observable
 #
-#planetname,ra_str,ra,dec_str,dec,obsname,period,transitduration,transitdepthdb,midpointcalendar,propmidpointunc,midpointairmass,targetobsstartcalendar,targetobsendcalendar,fractionobservable
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,09/03/2020 11:26,0.001991,1.193230,09/03/2020 05:46,09/03/2020 12:09,0.692
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,09/05/2020 06:52,0.001992,1.756830,09/05/2020 05:38,09/05/2020 12:09,0.837
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,09/14/2020 08:04,0.001997,1.245070,09/14/2020 05:02,09/14/2020 12:16,1.000
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,09/23/2020 09:15,0.002002,1.147360,09/23/2020 04:27,09/23/2020 12:22,1.000
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,09/25/2020 04:41,0.002003,2.458930,09/25/2020 04:19,09/25/2020 12:22,0.599
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,10/02/2020 10:26,0.002007,1.316450,10/02/2020 03:52,10/02/2020 12:28,1.000
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,10/04/2020 05:52,0.002008,1.417230,10/04/2020 03:44,10/04/2020 12:28,1.000
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,10/11/2020 11:37,0.002012,2.034300,10/11/2020 03:16,10/11/2020 12:26,0.719
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,10/13/2020 07:03,0.002013,1.162480,10/13/2020 03:08,10/13/2020 12:18,1.000
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,10/22/2020 08:15,0.002018,1.194780,10/22/2020 02:33,10/22/2020 11:42,1.000
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,10/24/2020 03:41,0.002019,1.747890,10/24/2020 02:25,10/24/2020 11:34,0.841
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,10/31/2020 09:26,0.002023,1.560470,10/31/2020 01:58,10/31/2020 11:07,0.957
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,11/02/2020 04:52,0.002024,1.242740,11/02/2020 01:50,11/02/2020 10:59,1.000
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,11/11/2020 06:03,0.002029,1.147660,11/11/2020 01:24,11/11/2020 10:24,1.000
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,11/13/2020 01:29,0.002030,2.438670,11/13/2020 01:23,11/13/2020 10:16,0.530
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,11/20/2020 07:14,0.002034,1.319760,11/20/2020 01:21,11/20/2020 09:48,1.000
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,11/22/2020 02:41,0.002035,1.412710,11/22/2020 01:19,11/22/2020 09:40,0.866
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,11/29/2020 08:26,0.002039,2.047520,11/29/2020 01:19,11/29/2020 09:13,0.714
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,12/01/2020 03:52,0.002040,1.161600,12/01/2020 01:18,12/01/2020 09:05,1.000
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,12/10/2020 05:03,0.002045,1.196360,12/10/2020 01:20,12/10/2020 08:30,1.000
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,12/19/2020 06:14,0.002050,1.566880,12/19/2020 01:23,12/19/2020 07:54,0.952
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,12/21/2020 01:40,0.002051,1.240440,12/21/2020 01:23,12/21/2020 07:46,0.577
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,12/30/2020 02:52,0.002056,1.147980,12/30/2020 01:29,12/30/2020 07:11,0.874
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,01/08/2021 04:03,0.002061,1.323120,01/08/2021 01:35,01/08/2021 06:36,1.000
-WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Kitt Peak,1.809886,3.693600,1.189000,01/17/2021 05:14,0.002066,2.060950,01/17/2021 01:43,01/17/2021 06:00,0.709
-
+planetname,ra_str,ra,dec_str,dec,obsname,reflink,algorithm,isdefault,ismostprecise,phase,period,transitduration,transitdepthdb,transitdepthcalc,ttv,midpointcalendar,propmidpointunc,midpointairmass,targetobsstartcalendar,targetobsendcalendar,fractionobservable
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,09/21/2020 13:49,0.002001,1.161940,09/21/2020 07:24,09/21/2020 15:22,0.923
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,09/23/2020 09:15,0.002002,1.369220,09/23/2020 07:16,09/23/2020 15:22,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,09/30/2020 15:00,0.002006,1.708010,09/30/2020 06:48,09/30/2020 15:25,0.612
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,10/02/2020 10:26,0.002007,1.076780,10/02/2020 06:40,10/02/2020 15:24,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,10/11/2020 11:37,0.002012,1.072250,10/11/2020 06:05,10/11/2020 15:27,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,10/13/2020 07:03,0.002013,1.748560,10/13/2020 05:57,10/13/2020 15:19,0.799
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,10/20/2020 12:48,0.002017,1.349060,10/20/2020 05:30,10/20/2020 14:52,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,10/22/2020 08:15,0.002018,1.172280,10/22/2020 05:22,10/22/2020 14:44,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,10/29/2020 14:00,0.002022,2.524100,10/29/2020 04:54,10/29/2020 14:16,0.575
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,10/31/2020 09:26,0.002023,1.045970,10/31/2020 04:46,10/31/2020 14:08,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,11/02/2020 04:52,0.002024,2.600480,11/02/2020 04:38,11/02/2020 14:00,0.561
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,11/09/2020 10:37,0.002028,1.164460,11/09/2020 04:34,11/09/2020 13:33,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,11/11/2020 06:03,0.002029,1.364120,11/11/2020 04:33,11/11/2020 13:25,0.908
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,11/18/2020 11:48,0.002033,1.717860,11/18/2020 04:32,11/18/2020 12:58,0.813
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,11/20/2020 07:14,0.002034,1.075620,11/20/2020 04:32,11/20/2020 12:50,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,11/29/2020 08:26,0.002039,1.073340,11/29/2020 04:32,11/29/2020 12:14,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,12/08/2020 09:37,0.002044,1.353980,12/08/2020 04:34,12/08/2020 11:39,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,12/10/2020 05:03,0.002045,1.169660,12/10/2020 04:34,12/10/2020 11:31,0.629
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,12/17/2020 10:48,0.002049,2.548820,12/17/2020 04:38,12/17/2020 11:03,0.570
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,12/19/2020 06:14,0.002050,1.045950,12/19/2020 04:38,12/19/2020 10:56,0.933
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,12/28/2020 07:25,0.002055,1.167020,12/28/2020 04:43,12/28/2020 10:20,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,01/06/2021 08:36,0.002060,1.727870,01/06/2021 04:49,01/06/2021 09:45,0.808
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,01/17/2021 05:14,0.002066,1.074460,01/17/2021 04:54,01/17/2021 09:02,0.588
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,01/26/2021 06:25,0.002071,1.358960,01/26/2021 05:00,01/26/2021 08:26,0.885
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,02/04/2021 07:36,0.002076,2.574070,02/04/2021 05:05,02/04/2021 07:51,0.566
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,02/24/2021 05:25,0.002087,1.738020,02/24/2021 05:12,02/24/2021 06:32,0.360
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,07/04/2021 12:54,0.002159,2.476740,07/04/2021 12:35,07/04/2021 14:53,0.584
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,07/13/2021 14:05,0.002164,1.339530,07/13/2021 12:00,07/13/2021 14:57,0.736
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,08/02/2021 11:54,0.002175,1.688960,08/02/2021 10:41,08/02/2021 15:06,0.827
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,08/11/2021 13:05,0.002180,1.157060,08/11/2021 10:06,08/11/2021 15:10,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,08/20/2021 14:16,0.002185,1.046150,08/20/2021 09:30,08/20/2021 15:14,0.760
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,08/22/2021 09:42,0.002186,2.453530,08/22/2021 09:23,08/22/2021 15:13,0.589
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,08/31/2021 10:53,0.002191,1.334790,08/31/2021 08:47,08/31/2021 15:17,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,09/09/2021 12:05,0.002196,1.069150,09/09/2021 08:12,09/09/2021 15:19,1.000
+WASP-76 b,01h46m31.86s,26.632746,02d42m01.94s,2.700539,Mauna Kea,<a refstr=WEST_ET_AL__2016 href=https://ui.adsabs.harvard.edu/abs/2016A&A...585A.126W/abstract target=ref>West et al. 2016</a>,Transit Ephemeris,1,1,0.000000,1.809886,3.693600,1.189000,1.181628,0,09/18/2021 13:16,0.002201,1.080380,09/18/2021 07:36,09/18/2021 15:22,1.000
