@@ -1,8 +1,8 @@
 ##############################################################
-# Integrate PBay Spectrum with actualy Alluxa profile to get Measurements
-# To make spectrum, go to Kavli research folder where PBay is stored
-# Outputs: Plots saved to plots folder
-# Inputs: Spectra from pbay + their log should be saved to spectra folder
+# 1. download transit data from exoplanet archive 
+# 2. put file in data/planet/ folder
+# 3. update planets list (to do, make it an input)
+# 4. run scripts
 ###############################################################
 
 import numpy as np
@@ -51,7 +51,6 @@ def read_transits(file, site='Keck', frac=1.0):
 	obs    = Observer.at_site(site)
 
 	return startimes, endtimes, midtimes, duration, fracs, full_transits, target, obs
-
 
 
 
