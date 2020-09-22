@@ -1,0 +1,48 @@
+# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
+# Tue Sep 22 09:59:05 2020
+#
+# CONSTRAINT:  where (ismostprecise = 1)
+#
+# COLUMN planetname:     Data Source Planet Name
+# COLUMN ra_str:         RA [sexagesimal]
+# COLUMN ra:             RA [decimal degrees]
+# COLUMN dec_str:        Dec [sexagesimal]
+# COLUMN dec:            Dec [decimal degrees]
+# COLUMN obsname:        Observatory Name
+# COLUMN reflink:        Reference
+# COLUMN algorithm:      Algorithm
+# COLUMN isdefault:      Default Parameters Flag
+# COLUMN ismostprecise:  Most-Precise Flag
+# COLUMN phase:          Phase
+# COLUMN period:         Period [days]
+# COLUMN transitduration: Transit Duration [hours]
+# COLUMN transitdepthdb: Transit Depth - Measured [percent]
+# COLUMN transitdepthcalc: Transit Depth - Calculated [percent]
+# COLUMN ttv:            TTV flag
+# COLUMN midpointcalendar: Event Midpoint Calendar UT
+# COLUMN propmidpointunc: Propagated Midpoint Uncertainty [days]
+# COLUMN midpointairmass: Event Midpoint Airmass
+# COLUMN targetobsstartcalendar: Target Observability Start Calendar UT
+# COLUMN targetobsendcalendar: Target Observability End Calendar UT
+# COLUMN fractionobservable: Event Fraction Observable
+#
+planetname,ra_str,ra,dec_str,dec,obsname,reflink,algorithm,isdefault,ismostprecise,phase,period,transitduration,transitdepthdb,transitdepthcalc,ttv,midpointcalendar,propmidpointunc,midpointairmass,targetobsstartcalendar,targetobsendcalendar,fractionobservable
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,09/30/2020 05:02,0.000737,1.109090,09/30/2020 04:58,09/30/2020 10:30,0.532
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,10/03/2020 06:40,0.000738,1.110600,10/03/2020 04:56,10/03/2020 10:18,1.000
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,10/06/2020 08:18,0.000739,1.440850,10/06/2020 04:53,10/06/2020 10:06,1.000
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,11/15/2020 05:28,0.000749,1.375650,11/15/2020 04:32,11/15/2020 07:29,0.937
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,11/18/2020 07:05,0.000750,2.651310,11/18/2020 04:32,11/18/2020 07:17,0.592
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,04/14/2021 13:15,0.000790,1.982100,04/14/2021 12:28,04/14/2021 15:15,0.870
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,04/17/2021 14:53,0.000791,1.237680,04/17/2021 12:16,04/17/2021 15:13,0.653
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,05/24/2021 10:26,0.000801,2.169790,05/24/2021 09:51,05/24/2021 14:50,0.772
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,05/27/2021 12:03,0.000802,1.279460,05/27/2021 09:39,05/27/2021 14:49,1.000
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,05/30/2021 13:41,0.000803,1.081880,05/30/2021 09:27,05/30/2021 14:49,1.000
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,07/03/2021 07:36,0.000812,2.404610,07/03/2021 07:14,07/03/2021 14:52,0.674
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,07/06/2021 09:14,0.000812,1.328330,07/06/2021 07:02,07/06/2021 14:53,1.000
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,07/09/2021 10:51,0.000813,1.088780,07/09/2021 06:50,07/09/2021 14:55,1.000
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,07/12/2021 12:29,0.000814,1.143060,07/12/2021 06:38,07/12/2021 14:57,1.000
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,07/15/2021 14:07,0.000815,1.582540,07/15/2021 06:26,07/15/2021 14:58,0.903
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,08/15/2021 06:24,0.000823,1.385460,08/15/2021 05:40,08/15/2021 13:32,0.842
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,08/18/2021 08:01,0.000824,1.099130,08/18/2021 05:38,08/18/2021 13:20,1.000
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,08/21/2021 09:39,0.000825,1.122900,08/21/2021 05:36,08/21/2021 13:08,1.000
+WASP-80 b,20h12m40.18s,303.167407,-02d08m39.15s,-2.144208,Mauna Kea,<a refstr=TRIAUD_ET_AL__2015 href=https://ui.adsabs.harvard.edu/abs/2015MNRAS.450.2279T/abstract target=ref>Triaud et al. 2015</a>,Transit Ephemeris,1,1,0.000000,3.067852,2.131000,2.937000,3.027595,0,08/24/2021 11:17,0.000826,1.496140,08/24/2021 05:33,08/24/2021 12:56,1.000

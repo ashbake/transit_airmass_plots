@@ -126,7 +126,7 @@ def plot_planets(mags, tele, A, mag, names, dec, scale_fac=2, decmin=-20):
 
 
 if __name__=='__main__':
-	file = data_dir + 'hotjupiters_new.csv' 
+	file = data_dir + 'hotjupiters.csv' # period <10days, radius > 0.8 rjup
 	vmag, jmag, teff, rstar, a, rp, mass, names, dec = read_targets(file, file2=None)
 	A = get_scale_height(teff, rstar, a, rp, mass, names)
 

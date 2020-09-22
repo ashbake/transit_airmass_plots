@@ -1,0 +1,48 @@
+# This file was produced by the NASA Exoplanet Archive  http://exoplanetarchive.ipac.caltech.edu
+# Tue Sep 22 15:14:20 2020
+#
+# COLUMN planetname:     Data Source Planet Name
+# COLUMN ra_str:         RA [sexagesimal]
+# COLUMN ra:             RA [decimal degrees]
+# COLUMN dec_str:        Dec [sexagesimal]
+# COLUMN dec:            Dec [decimal degrees]
+# COLUMN obsname:        Observatory Name
+# COLUMN reflink:        Reference
+# COLUMN algorithm:      Algorithm
+# COLUMN isdefault:      Default Parameters Flag
+# COLUMN ismostprecise:  Most-Precise Flag
+# COLUMN phase:          Phase
+# COLUMN period:         Period [days]
+# COLUMN transitduration: Transit Duration [hours]
+# COLUMN transitdepthdb: Transit Depth - Measured [percent]
+# COLUMN transitdepthcalc: Transit Depth - Calculated [percent]
+# COLUMN ttv:            TTV flag
+# COLUMN midpointcalendar: Event Midpoint Calendar UT
+# COLUMN propmidpointunc: Propagated Midpoint Uncertainty [days]
+# COLUMN midpointairmass: Event Midpoint Airmass
+# COLUMN targetobsstartcalendar: Target Observability Start Calendar UT
+# COLUMN targetobsendcalendar: Target Observability End Calendar UT
+# COLUMN fractionobservable: Event Fraction Observable
+#
+planetname,ra_str,ra,dec_str,dec,obsname,reflink,algorithm,isdefault,ismostprecise,phase,period,transitduration,transitdepthdb,transitdepthcalc,ttv,midpointcalendar,propmidpointunc,midpointairmass,targetobsstartcalendar,targetobsendcalendar,fractionobservable
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,02/01/2021 07:59,,1.014920,02/01/2021 05:03,02/01/2021 13:18,1.000
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,02/02/2021 10:10,,1.165020,02/02/2021 05:04,02/02/2021 13:14,1.000
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,02/03/2021 12:22,,2.014580,02/03/2021 05:05,02/03/2021 13:10,0.768
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,02/12/2021 05:55,,1.077780,02/12/2021 05:08,02/12/2021 12:35,0.763
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,02/13/2021 08:07,,1.034250,02/13/2021 05:09,02/13/2021 12:31,1.000
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,02/14/2021 10:18,,1.363290,02/14/2021 05:10,02/14/2021 12:27,1.000
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,02/24/2021 06:03,,1.022500,02/24/2021 05:13,02/24/2021 11:48,0.782
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,02/25/2021 08:15,,1.108580,02/25/2021 05:13,02/25/2021 11:44,1.000
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,02/26/2021 10:27,,1.736150,02/26/2021 05:14,02/26/2021 11:40,0.908
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,03/08/2021 06:11,,1.019260,03/08/2021 05:16,03/08/2021 11:00,0.805
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,03/09/2021 08:23,,1.258520,03/09/2021 05:17,03/09/2021 10:57,1.000
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,03/10/2021 10:35,,2.530110,03/10/2021 05:18,03/10/2021 10:53,0.600
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,03/20/2021 06:19,,1.067260,03/20/2021 05:20,03/20/2021 10:13,0.831
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,03/21/2021 08:31,,1.536560,03/21/2021 05:21,03/21/2021 10:09,1.000
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,04/01/2021 06:27,,1.179000,04/01/2021 05:24,04/01/2021 09:26,0.856
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,04/02/2021 08:39,,2.086520,04/02/2021 05:24,04/02/2021 09:22,0.739
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,04/13/2021 06:36,,1.389070,04/13/2021 05:28,04/13/2021 08:39,0.878
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,04/25/2021 06:44,,1.786530,04/25/2021 05:32,04/25/2021 07:52,0.776
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,05/07/2021 06:52,,2.649920,05/07/2021 05:38,05/07/2021 07:05,0.483
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,08/14/2021 14:31,,2.359050,08/14/2021 14:05,08/14/2021 15:11,0.370
+Custom,06h30m32.79s,97.636640,29d40m20.25s,29.672291,Mauna Kea,User Edited Data,Transit Ephemeris,0,1,0.000000,1.091420,2.995900,,1.383445,,08/26/2021 14:40,,1.661690,08/26/2021 13:18,08/26/2021 15:16,0.656
