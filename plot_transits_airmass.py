@@ -53,7 +53,6 @@ def read_transits(file, site='Keck', frac=1.0):
 	return startimes[full_transits], endtimes[full_transits], midtimes[full_transits], duration[full_transits], target, obs
 
 
-
 def plot_all(startimes, endtimes, midtimes, duration, target, obs):
 	n = len(startimes)
 	w = int(np.ceil(np.sqrt(n)))
@@ -92,10 +91,11 @@ def plot_all(startimes, endtimes, midtimes, duration, target, obs):
 			xlo = datetime.datetime(day=start_time.day, year=start_time.year, month= start_time.month)
 			axs[i,j].set_xlim(xlo + datetime.timedelta(hours=4),xlo + datetime.timedelta(hours=17))
 
-			txt_shift = 1 if start_time.hour > 4 else -8
-
-			txt = axs[i,j].annotate('moon:%s\n%sdeg'%(moon_ill,round(moon_sep.value)), \
-				(xlo - datetime.timedelta(hours=txt_shift),2.5),fontsize=8)
+			# Put moon info in each panel
+			txt_shift = 5 if start_time.hour > 8 else 12
+			txt = axs[i,j].annotate('moon:%s\n%sdeg'%(moon_ill,round(moon_sep.value)),\
+				(xlo + datetime.timedelta(hours=txt_shift),2.5),\
+				fontsize=8)
 			txt.set_bbox(dict(facecolor='white', alpha=0.5))
 
 			start = start_time - datetime.timedelta(hours=10)
@@ -103,26 +103,30 @@ def plot_all(startimes, endtimes, midtimes, duration, target, obs):
 			twilight2 = obs.twilight_morning_astronomical(Time(start), which='next').datetime
 			ax.axvspan(twilight1, twilight2, ymin=0, ymax=1, color='lightgrey',zorder=-10)
 
+			fig.suptitle(planet + ' from ' + site, fontsize=18)
 			m+=1
 
-	plt.subplots_adjust(hspace=0.6)
+	plt.subplots_adjust(hspace=0.6,top=0.92)
 
 
+def run():
+	# goal: run from command line: plot_transits airmass -site Keck -target WASP-76b -color coral -return_coord -ext pdf
+	pass
 
 if __name__=='__main__':
-	planets = ['WASP-76b', 'WASP-127b']
+	planets = ['WASP-12b', 'WASP-127b']#,'WASP-31b','WASP-103b','WASP-80b','WASP-76b', 'WASP-127b']
+	site = 'Keck' #'Palomar', 'KPNO'
 
 	for planet in planets:
 		filename = datapath + 'transits_%s.txt' %planet
 
-		args = read_transits(filename,site='Keck')
+		args = read_transits(filename,site=site)
 
 		plot_all(*args)
 
-		plt.savefig('./plots/observing_chart_%s.eps'%planet)
-		plt.savefig('./plots/observing_charts_%s.pdf'%planet)
+		plt.savefig('./plots/observing_chart_%s_%s.eps'%(planet,site)
+		plt.savefig('./plots/observing_charts_%s_%s.pdf'%(planet,site)
 
 ###################### 
 
-# goal: run from command line: plot_transits airmass -site Keck -target WASP-76b -color coral -return_coord -ext pdf
 
