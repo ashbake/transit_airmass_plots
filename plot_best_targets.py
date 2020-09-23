@@ -131,19 +131,19 @@ if __name__=='__main__':
 	A = get_scale_height(teff, rstar, a, rp, mass, names)
 
 	# choose either 'J' or 'V' band
-	mode = 'V'
+	mode = 'J'
 	mag  = jmag if mode=='J' else vmag
 
 	# define instrument/observatory params
-	cen_lam = 1460. if mode =='J' else 600. # chose these to match instr. i care about, not J/V bands
+	binning = 20 # chose these to match instr. i care about, not J/V bands
 	res = 90000.0      # resolution of instrument
-	ntransits = 2      # no. of transits assuming to have observed
-	dl_l = cen_lam/res # cal delta lambda over lambda
-	tel_diam = 9.5     # telescope diameter in meters
+	ntransits = 3      # no. of transits assuming to have observed
+	dl_l = binning/res # cal delta lambda over lambda
+	tel_diam = 4.5     # telescope diameter in meters
 
 	mags, tele = calc_s(mode=mode, tot_eff=0.1,  ntransits=ntransits, target_snr=3, tel_diam=tel_diam, dl_l=dl_l)
 
-	plot_planets(mags, tele, A, mag, names, dec, scale_fac=1, decmin=-20)
+	plot_planets(mags, tele, A, mag, names, dec, scale_fac=3, decmin=-20)
 
 
 ###################### 
